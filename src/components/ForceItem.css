@@ -1,0 +1,29 @@
+.force-item__list {
+    margin: 0;
+    padding: 0;
+}
+
+.force-item {
+    width: 100%;
+    border-radius: 25px;
+    background: #efefef;
+    padding: 15px;
+    list-style-type: none;
+    margin: 0 0 15px 0;
+}
+
+.force-item__heading {
+    font-weight: bold;
+}
+
+.force-item a {
+    text-decoration: none;
+}
+
+.force-item a:hover {
+    text-decoration: underline;
+}
+
+.force-item a:active {
+    text-decoration: none;
+}
