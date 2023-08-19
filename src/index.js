@@ -5,15 +5,11 @@ import {
   RouterProvider,
 } from "react-router-dom";
 
-// import './index.css';
 import App from './App';
-// import Force from "./Force";
 import Force, {
     loader as forceLoader,
   } from "./Force";
 
-// const root = ReactDOM.createRoot(document.getElementById('root'));
-// root.render(<App />);
 
 const router = createBrowserRouter([
     {
